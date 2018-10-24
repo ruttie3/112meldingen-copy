@@ -1,0 +1,15 @@
+.copy-alert {
+    background: #ec9da0 url(../images/hor.png) repeat-x 0 -184px;
+    border: 1px solid #dc2227;
+    color: #e5e5e5;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    height: 22px;
+    margin: 7px;
+}
+
+.city-notify {
+    color: cornflowerblue !important;
+    font-size: 18px;
+}
