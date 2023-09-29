@@ -2,10 +2,13 @@
     "name": "112meldingen kopieer knop",
     "description": "Een knop om meldingen te kopiëren vanaf 112meldingen.nl.",
     "version": "1.4",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "content_scripts": [
         {
-            "matches": ["http://*.112meldingen.nl/*"],
+            "matches": [
+                "https://*.112meldingen.nl/*",
+                "http://*.112meldingen.nl/*"
+            ],
             "css": ["style.css"],
             "js": ["jquery.js", "app.js"]
         }
